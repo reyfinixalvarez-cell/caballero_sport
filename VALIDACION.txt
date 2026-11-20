@@ -1,1 +1,0 @@
-Verificados 21 modelos y 34 variantes con imágenes individuales existentes. Verificadas miniaturas de la vista previa y su relación con cada color. Cada selección PHP navega al ID de la variante, conservando precio, imagen y stock. Pendiente ejecución integral PHP/MySQL y render de navegador en XAMPP: no están disponibles en este entorno.
