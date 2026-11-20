@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard | Admin Caballero Sport</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
+<body class="admin-body" data-page="adminIndex">
+    <div id="admin-header"></div>
+
+    <main class="container pb-5">
+        <div class="admin-heading">
+            <div>
+                <span class="section-kicker">Caballero Sport</span>
+                <h1>Panel administrador</h1>
+            </div>
+        </div>
+        <div class="row g-4 mb-4">
+            <div class="col-md-3"><div class="stat-card"><i class="bi bi-box-seam"></i><span>Productos</span><strong id="stat-productos">0</strong></div></div>
+            <div class="col-md-3"><div class="stat-card"><i class="bi bi-people"></i><span>Clientes</span><strong id="stat-clientes">0</strong></div></div>
+            <div class="col-md-3"><div class="stat-card"><i class="bi bi-receipt"></i><span>Pedidos</span><strong id="stat-pedidos">0</strong></div></div>
+            <div class="col-md-3"><div class="stat-card"><i class="bi bi-cash-stack"></i><span>Ventas</span><strong id="stat-ventas">Bs 0.00</strong></div></div>
+        </div>
+        <div class="content-panel">
+            <h2>Ultimos pedidos</h2>
+            <div class="table-responsive">
+                <table class="table align-middle">
+                    <thead><tr><th>ID</th><th>Cliente</th><th>Total</th><th>Estado</th><th>Fecha</th></tr></thead>
+                    <tbody id="admin-last-orders"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../assets/js/data.js"></script>
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>
