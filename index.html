@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio | Caballero Sport</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body data-page="home">
+    <div id="site-header"></div>
+
+    <section class="hero">
+        <div class="container py-5">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <span class="section-kicker">Nueva temporada 2026</span>
+                    <h1>Zapatillas hechas para rendir y destacar</h1>
+                    <p class="lead text-muted">Modelos deportivos, running, urbano, futbol y basketball seleccionados directamente de nuestro catalogo.</p>
+                    <form action="catalogo.html" method="get" class="search-bar">
+                        <input type="search" name="q" class="form-control" placeholder="Buscar por marca, modelo o color...">
+                        <button class="btn btn-primary px-4" type="submit">Buscar</button>
+                    </form>
+                </div>
+                <div class="col-lg-5">
+                    <div id="promoCarousel" class="carousel slide promo-carousel rounded overflow-hidden shadow" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="promo-slide promo-red">
+                                    <span>Running &amp; Training</span>
+                                    <h2>Amortiguacion y ligereza</h2>
+                                    <a href="catalogo.html?categoria=4" class="btn btn-light align-self-start mt-2">Ver running</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="promo-slide promo-blue">
+                                    <span>Estilo Urbano</span>
+                                    <h2>Comodidad para todo el dia</h2>
+                                    <a href="catalogo.html?categoria=5" class="btn btn-light align-self-start mt-2">Ver urbano</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="promo-slide promo-dark">
+                                    <span>Futbol &amp; Cancha</span>
+                                    <h2>Agarre y control total</h2>
+                                    <a href="catalogo.html?categoria=7" class="btn btn-light align-self-start mt-2">Ver futbol</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="d-flex justify-content-between align-items-end mb-4">
+            <div>
+                <span class="section-kicker">Seleccion</span>
+                <h2 class="section-title">Productos destacados</h2>
+            </div>
+            <a href="catalogo.html" class="btn btn-outline-dark">Ver todo</a>
+        </div>
+        <div class="row g-4" id="featured-products"></div>
+    </section>
+
+    <section class="soft-band py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-end mb-4">
+                <div>
+                    <span class="section-kicker">Recien llegados</span>
+                    <h2 class="section-title">Nuevos modelos</h2>
+                </div>
+                <a href="catalogo.html?nuevo=1" class="btn btn-outline-dark">Ver nuevos</a>
+            </div>
+            <div class="row g-4" id="new-products"></div>
+        </div>
+    </section>
+
+    <div id="site-footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
