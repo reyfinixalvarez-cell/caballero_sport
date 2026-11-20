@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Zapatilla deportiva Caballero Sport">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f8fb"/>
+      <stop offset="1" stop-color="#e8edf5"/>
+    </linearGradient>
+    <linearGradient id="shoe" x1="0" x2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.52" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#ef233c"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <circle cx="190" cy="120" r="70" fill="#ef233c" opacity=".14"/>
+  <circle cx="765" cy="520" r="105" fill="#0ea5e9" opacity=".12"/>
+  <path d="M155 407c43 6 102-1 160-27 43-19 77-50 111-84 23-23 43-35 74-30 53 8 69 61 117 84 39 19 89 20 125 47 28 21 42 52 21 79-17 22-54 35-108 35H245c-65 0-111-17-125-48-13-29 5-61 35-56z" fill="url(#shoe)"/>
+  <path d="M232 388c43-5 92-22 133-55 28-23 48-43 76-47 24-3 51 9 70 30l-90 78c-33 28-78 43-123 41l-93-5c-27-1-36-37-9-42h36z" fill="#f9fafb"/>
+  <path d="M128 463h638c-8 33-39 54-88 54H236c-59 0-96-18-108-54z" fill="#ffffff"/>
+  <path d="M188 507h486" stroke="#d1d5db" stroke-width="18" stroke-linecap="round"/>
+  <path d="M500 330l-92 82M552 360l-68 55M612 384l-47 40" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+  <text x="450" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="800" fill="#111827">Caballero Sport</text>
+  <text x="450" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#4b5563">Zapatillas deportivas</text>
+</svg>
